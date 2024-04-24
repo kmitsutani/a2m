@@ -1,0 +1,24 @@
+inputs:
+  - quant-ph
+processes:
+  - filter:
+      skip:
+        - qiskit: i
+        - python: i
+        - neural network: i
+        - artificial intelligence: i
+      keep:
+        - quantum speed: i
+        - thermalization: i
+        - entanglement: i
+        - resource: i
+  - transabs_d:
+    - all
+outputs:
+  gmail_smtp:
+    gmail:
+      host: smtp.gmail.com
+      port: 465
+      credentials: /path/to/credentials.json
+      from: <Your gmail address>
+      to: <mail address to deliver>

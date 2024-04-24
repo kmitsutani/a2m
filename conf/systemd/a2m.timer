@@ -1,0 +1,9 @@
+[Unit]
+Description=boot a2m
+
+[Timer]
+OnCalendar=Mon..Fri 14:00:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

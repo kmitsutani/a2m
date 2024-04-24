@@ -1,0 +1,13 @@
+[Unit]
+Description=a2m
+After=network.target
+
+[Service]
+Type=simple
+User={whoami}
+WorkingDirectory={a2m_dir}
+ExecStart={a2m_venv_path}/bin/python -m a2m
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

@@ -25,12 +25,12 @@ it makes
 python -m a2m emit -c /path/to/config.yml
 ```
 
-example of `config.yml` is (conf/config.yml.example)
+example of `config.yml` is [conf/config.yml.example](conf/config.yml.example)
 
 
 ## set systemd.timer and boot daily
 
-templates of service and timer files are in (conf/systemd/).
+templates of service and timer files are in [conf/systemd/](conf/systemd/).
 
 fill placeholder then start and enable them.
 

@@ -1,3 +1,5 @@
 .envrc
 conf/config.yml
 *.pyc
+data/
+testdata/

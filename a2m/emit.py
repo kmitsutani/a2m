@@ -18,6 +18,8 @@ def emit(config_yml):
         entries = [
             x for x in feeds if cat in x['tags']
         ]
+        if len(entries) == 0:
+            continue
         if isinstance(entries[0], list):
             entries = entries[0]
         feed_dict[catsym2label[cat]] = entries
